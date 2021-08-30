@@ -77,8 +77,8 @@ Include a full list of features that have been prioritized based on the `Time an
 | mobile and desktop view | 2H | 2hrs|  |  |
 | displaying content and image | 3H | 3hrs|  |  |
 | CSS | 4H | 4hrs|  |  |
-| JS | 3H | 3hrs|  |  |
-| POst MVP | 3H | 3hrs|  |  |
+| Extra JS | 3H | 3hrs|  |  |
+| Post MVP | 3H | 3hrs|  |  |
 | Total | 22H | 22hrs|  |  |
 
 ## Code Snippet
