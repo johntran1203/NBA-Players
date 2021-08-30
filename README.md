@@ -14,7 +14,7 @@ Or look up a team and display the players playing for them and the combine team 
 
 https://www.balldontlie.io/api/v1/players?search=lebron
 
-{
+```{
   "data": [
     {
       "id": 237,
@@ -34,7 +34,7 @@ https://www.balldontlie.io/api/v1/players?search=lebron
       },
       "weight_pounds": 250
     }
- 
+ ```
 
 ## Wireframes
 
@@ -48,18 +48,23 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 *These are examples only. Replace with your own MVP features.*
 
 - Find and use external api 
+- add a form wih a submit button
 - Render data on page 
 - data show image of player
+- a paragrpah of the play content
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
+- link everything and make sure it work
+- any more Css to make it look nicer
+
 
 
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+
 
 ## Timeframes
 
@@ -69,9 +74,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | 4H | 4hrs| 4rs | idk |
-| Working with API | 4H | 4hrs| idk |  |
-| Total | 8H | 8hrs| 8hrs | idk |
+| Adding Form | 3H | 3hrs|  |  |
+| Working with API | 3H | 3hrs|  |  |
+| Total | 6H | 6hrs|  |  |
 
 ## Code Snippet
 
