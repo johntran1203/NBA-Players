@@ -57,7 +57,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 *These are examples only. Replace with your own Post-MVP features.*
 
 - link everything and make sure it work
-- any more Css to make it look nicer
+- add more CSS to make it look nicer
 
 
 
