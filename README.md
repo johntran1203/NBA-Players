@@ -8,6 +8,8 @@ NBA Player's team
 
 Look up past and present NBA players and what team did they play for and maybe there best year that they play.  When searching up a player it will show them the team they play for and the jersey they worn.
 
+Or look up a team and display the players playing for them and the combine team stats of every players as one. 
+
 ## API and Data Sample
 
 https://www.balldontlie.io/api/v1/players?search=lebron
@@ -67,9 +69,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 4hrs| 4rs | idk |
+| Adding Form | 4H | 4hrs| 4rs | idk |
 | Working with API | 4H | 4hrs| idk |  |
-| Total | H | 8hrs| 8hrs | idk |
+| Total | 8H | 8hrs| 8hrs | idk |
 
 ## Code Snippet
 
