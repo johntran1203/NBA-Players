@@ -2,15 +2,37 @@
 
 ## Project Name
 
-The name of your project.
+NBA Player's team
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Look up past and present NBA players and what team did they play for and maybe there best year that they play.  When searching up a player it will show them the team they play for and the jersey they worn.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://www.balldontlie.io/api/v1/players?search=lebron
+
+{
+  "data": [
+    {
+      "id": 237,
+      "first_name": "LeBron",
+      "height_feet": 6,
+      "height_inches": 8,
+      "last_name": "James",
+      "position": "F",
+      "team": {
+        "id": 14,
+        "abbreviation": "LAL",
+        "city": "Los Angeles",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Los Angeles Lakers",
+        "name": "Lakers"
+      },
+      "weight_pounds": 250
+    }
+ 
 
 ## Wireframes
 
@@ -25,13 +47,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
+- data show image of player
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
 - Add second API
-- Use local storage to save user favorites
+
 
 ## Priority Matrix
 
@@ -45,17 +67,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 4hrs| 4rs | idk |
+| Working with API | 4H | 4hrs| idk |  |
+| Total | H | 8hrs| 8hrs | idk |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function searchPlayer(player) {
+	// look up a player
 }
 ```
 
