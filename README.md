@@ -73,9 +73,13 @@ Include a full list of features that have been prioritized based on the `Time an
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | 3H | 3hrs|  |  |
 | Working with API | 3H | 3hrs|  |  |
-| CSS | 3H | 3hrs|  |  |
+| make sure button is connect| 1H | 1hrs|  |  |
+| mobile and desktop view | 2H | 2hrs|  |  |
+| displaying content and image | 3H | 3hrs|  |  |
+| CSS | 4H | 4hrs|  |  |
 | JS | 3H | 3hrs|  |  |
-| Total | 12H | 12hrs|  |  |
+| POst MVP | 3H | 3hrs|  |  |
+| Total | 22H | 22hrs|  |  |
 
 ## Code Snippet
 
