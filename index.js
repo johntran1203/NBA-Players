@@ -41,10 +41,12 @@ const imageContainer = document.querySelector('#image-container')
 
 btn.addEventListener('click', (e) => {
   e.preventDefault()
- 
-  let inputValue = document.querySelector('#player-search').value
-  getPlayer(inputValue)
-  inputValue.innerText = ''
 
+  let inputValue = document.querySelector('#player-search')
+  if(inputValue.value) {
+    getPlayer(inputValue.value)
+
+  }
+  inputValue.value = ''
 
 })
