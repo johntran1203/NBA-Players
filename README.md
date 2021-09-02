@@ -35,7 +35,44 @@ https://www.balldontlie.io/api/v1/players?search=lebron
       "weight_pounds": 250
     }
  ```
-
+ https://api.giphy.com/v1/gifs/search?api_key=4hzP8g2GyqB2xxyhjSmDSvbDoOp4IbTe&q=lebron+james&limit=2&offset=0&rating=g&lang=en
+```
+{
+data: [
+{
+type: "gif",
+id: "3o7aTnQqygA3TcukFi",
+url: "https://giphy.com/gifs/nba-basketball-3o7aTnQqygA3TcukFi",
+slug: "nba-basketball-3o7aTnQqygA3TcukFi",
+bitly_gif_url: "http://gph.is/2dFtY7Q",
+bitly_url: "http://gph.is/2dFtY7Q",
+embed_url: "https://giphy.com/embed/3o7aTnQqygA3TcukFi",
+username: "nba",
+source: "http://nba.com",
+title: "Lebron James Basketball GIF by NBA",
+rating: "g",
+content_url: "",
+source_tld: "nba.com",
+source_post_url: "http://nba.com",
+is_sticker: 0,
+import_datetime: "2016-10-04 13:28:27",
+trending_datetime: "2020-12-30 17:20:51",
+images: {
+original: {
+height: "270",
+width: "480",
+size: "1057044",
+url: "https://media3.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.gif?cid=b7e1fa2335lkgjxtknl7y7qfc4m3y0g7pztgylo6m9nrntyk&rid=giphy.gif&ct=g",
+mp4_size: "136202",
+mp4: "https://media3.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.mp4?cid=b7e1fa2335lkgjxtknl7y7qfc4m3y0g7pztgylo6m9nrntyk&rid=giphy.mp4&ct=g",
+webp_size: "257946",
+webp: "https://media3.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.webp?cid=b7e1fa2335lkgjxtknl7y7qfc4m3y0g7pztgylo6m9nrntyk&rid=giphy.webp&ct=g",
+frames: "16",
+hash: "d8ac4361f9829ff8f6fa4741e0929afe"
+},
+},
+]
+```
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
