@@ -1,11 +1,13 @@
 *{
     font-size: 24px;
 }
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #F4F4F4;
+    background-color: #A2BCE0;
     text-align: center;
+    color: #F4F4F4;
 }
 
 img {
@@ -25,8 +27,6 @@ img {
 
 }
 
-
-
 .input-wrapper {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ img {
     background: #1D90A2;
     padding: 0.5rem;
     border-radius: 16px;
-    color: white;
+    color: #A2BCE0;
   
     margin: 0 auto;
     
@@ -60,4 +60,10 @@ button {
     background: #1D90A2;
     color: #F4F4F4;
 
+}
+
+#nbaData {
+  position: absolute;
+  top: 35%;
+  left: 40%;
 }
