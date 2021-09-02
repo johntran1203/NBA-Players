@@ -13,26 +13,33 @@ async function getPlayer(username) {
     }
   }
 
-  
+
 function showPlayerData(data){
   const playerName = `${data.first_name} ${data.last_name}`;
   const playerTeam = `Plays for ${data.team.full_name}`;  
   const size = `Is ${data.height_feet}ft. ${data.height_inches}in. tall and weighs ${data.weight_pounds}lbs.`;
   
-  
 
   const playerNameParagraph = document.createElement('p');
   const playerTeamParagraph = document.createElement('p');
   const sizeParagraph = document.createElement('p');
-
+  
   playerNameParagraph.innerText = playerName;
   playerTeamParagraph.innerText = playerTeam;
   sizeParagraph.innerText = size
   
-  document.body.append(playerNameParagraph, playerTeamParagraph, sizeParagraph)
+
+  nbaData.append(playerNameParagraph, playerTeamParagraph, sizeParagraph)
   
 }
 
+
+function removeAllChildNodes(parent) {
+  while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+  }
+}
+const nbaData = document.querySelector('#nbaData');
 
 
 const btn = document.getElementById('btn')
@@ -45,6 +52,7 @@ btn.addEventListener('click', (e) => {
   let inputValue = document.querySelector('#player-search')
   if(inputValue.value) {
     getPlayer(inputValue.value)
+    removeAllChildNodes(nbaData);
 
   }
   inputValue.value = ''
@@ -52,19 +60,19 @@ btn.addEventListener('click', (e) => {
 })
 
 
-async function getImage() {
+// async function getImage() {
   
-  const url = `https://serpapi.com/search.json?q=lebronjames&tbm=isch&ijn=0&api_key=030b110f2c4f40c0b696bb936cf0a91f2ee8f75a7a4725b91516568d0051bca0`
-    try {
-      // make an axios call to our user endpoint and save the response into a variable called response
-        const response = await axios.get(url);
+//   const url = `https://api.giphy.com/v1/gifs/search?api_key=HoyUN2SlpT8mVGPywKTcqJwaKg5fvz60&q=lebron&limit=10&offset=0&rating=g&lang=en`
+//     try {
+//       // make an axios call to our user endpoint and save the response into a variable called response
+//         const response = await axios.get(url)
       
-        cosnsole.log(response.data)
+//         cosnsole.log(response.data)
         
       
-    } catch (error) {
-      console.error(error);
-    }
-  }
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   }
 
-  getImage()
+//   getImage()
