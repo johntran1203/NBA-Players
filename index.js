@@ -21,7 +21,7 @@ async function getPlayer(username) {
 function showPlayerData(data){
   const playerName = `${data.first_name} ${data.last_name}`;
   const playerTeam = `Plays for ${data.team.full_name}`;  
-  const size = `Is ${data.height_feet}ft. ${data.height_inches}inches. tall and weighs ${data.weight_pounds}lbs.`;
+  const size = `Is ${data.height_feet}ft. ${data.height_inches}in. tall and weighs ${data.weight_pounds}lbs.`;
   console.log(playerName)
 
   const playerNameParagraph = document.createElement('p');

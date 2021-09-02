@@ -5,9 +5,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #A2BCE0;
+    background-color: #102523;
     text-align: center;
     color: #F4F4F4;
+    font-family: 'Azeret Mono', monospace;
 }
 
 img {
@@ -101,7 +102,7 @@ button {
     width: 100%;
   }
   body {
-    background-color: black;
+    background-color: #102523;
     text-align: center;
 
   }
