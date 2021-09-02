@@ -6,9 +6,9 @@ NBA Player's team
 
 ## Project Description
 
-Look up past and present NBA players and what team did they play for and maybe there best year that they play.  When searching up a player it will show them the team they play for and the jersey they worn.
+Look  up NBA players and describe them and display an image.
 
-Or look up a team and display the players playing for them and the combine team stats of every players as one. 
+Or look up the players and show some of their stats 
 
 ## API and Data Sample
 
