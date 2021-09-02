@@ -38,13 +38,14 @@ function showPlayerData(data){
   const firstName = `${data.first_name}`;
   const lastName = `${data.last_name}`;
   const fetchImage = async () => {
-    const url = `https://api.giphy.com/v1/gifs/search?api_key=HoyUN2SlpT8mVGPywKTcqJwaKg5fvz60&q=${firstName}+${lastName}&limit=1&offset=0&rating=g&lang=en`
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=HoyUN2SlpT8mVGPywKTcqJwaKg5fvz60&q=${firstName}+${lastName}&limit=4&offset=0&rating=g&lang=en`
+    
     try {
       // make an axios call to our user endpoint and save the response into a variable called response
         const response = await axios.get(url);
       
         const data = response.data.data[0].images.downsized.url
-        
+
         const NBAPic = document.createElement('img');
         NBAPic.className = 'pics'
         NBAPic.src = data;
