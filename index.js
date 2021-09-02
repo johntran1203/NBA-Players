@@ -50,3 +50,21 @@ btn.addEventListener('click', (e) => {
   inputValue.value = ''
 
 })
+
+
+async function getImage() {
+  
+  const url = `https://serpapi.com/search.json?q=lebronjames&tbm=isch&ijn=0&api_key=030b110f2c4f40c0b696bb936cf0a91f2ee8f75a7a4725b91516568d0051bca0`
+    try {
+      // make an axios call to our user endpoint and save the response into a variable called response
+        const response = await axios.get(url);
+      
+        cosnsole.log(response.data)
+        
+      
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  getImage()
