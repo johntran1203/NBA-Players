@@ -18,13 +18,13 @@ img {
   width: 100%;
   margin-right: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
+    
 }
 
 footer {
   background: #1D90A2;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   margin-top: auto;
 }
 
